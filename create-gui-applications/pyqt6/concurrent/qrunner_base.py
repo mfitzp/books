@@ -1,0 +1,34 @@
+import sys
+import time
+import traceback
+
+from PyQt6.QtCore import QObject, QRunnable, QThreadPool, pyqtSignal, pyqtSlot
+from PyQt6.QtWidgets import QApplication, QMainWindow
+
+
+class WorkerSignals(QObject):
+    pass
+
+
+class Worker(QRunnable):
+    def __init__(self, *args, **kwargs):
+        super().__init__()
+        # Store constructor arguments (re-used for processing)
+        self.args = args
+        self.kwargs = kwargs
+        self.signals = WorkerSignals()
+
+    @pyqtSlot()
+    def run(self):
+        pass
+
+
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.show()
+
+
+app = QApplication(sys.argv)
+window = MainWindow()
+app.exec()
