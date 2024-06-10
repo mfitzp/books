@@ -1,0 +1,19 @@
+[Desktop Entry]
+
+# The type of the thing this desktop file refers to (e.g. can be Link)
+Type=Application
+
+# The application name.
+Name=Hello World
+
+# Tooltip comment to show in menus.
+Comment=A simple Hello World application.
+
+# The path (folder) in which the executable is run
+Path=/opt/hello-world
+
+# The executable (can include arguments)
+Exec=/opt/hello-world/hello-world
+
+# The icon for the entry, use the target filesystem path.
+Icon=hello-world
