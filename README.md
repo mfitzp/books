@@ -5,6 +5,16 @@ You can use this repo to browse and download the code, or to submit issues or
 corrections. If you just want to download all the source code, see the
 prepared download zip files below.
 
+The following books are included in this repo:
+
+* [PyQt6 Book](https://www.pythonguis.com/pyqt6-book/) _Create GUI Applications with Python & Qt6 / PYQt6 Edition_
+* [PySide6 Book](https://www.pythonguis.com/pyside6-book/) _Create GUI Applications with Python & Qt6 / PySide6 Edition_
+* [PyQt5 Book](https://www.pythonguis.com/pyqt5-book/) _Create GUI Applications with Python & Qt5 / PyQt5 Edition_
+* [PySide2 Book](https://www.pythonguis.com/pyside2-book/) _Create GUI Applications with Python & Qt5 / PySide2 Edition_
+* [Python Packaging Book](https://www.pythonguis.com/packaging-book/) _Packaging Python Applications with PyInstaller_
+* [microbit Games Book](https://www.martinfitzpatrick.com/offer/01j93f815mza93zqrehfp43an1/) _micro:bit Arcade Tiny Games for your BBC micro:bit_
+
+
 ## Download Source Code
 
 To download the complete source code for the various books, you can use the
